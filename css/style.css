@@ -1,0 +1,73 @@
+/* ------------------------------------------ */
+/* RESET */
+
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------------------ */
+/* COMMON */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#ultraHighSecurityPassword,
+.header-payoff {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* ------------------------------------------ */
+/* CONTAINER */
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.header-teaser {
+  width: 40%;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ------------------------------------------ */
+/* HEADER */
+
+header {
+  padding: 50px;
+  background-image: url(../img/hacker.webp);
+  color: fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------------------------------------ */
+/* MAIN */
+
+main .container {
+  text-align: center;
+}
+
+.container .pw-generator {
+  padding: 20px 0;
+}
+
+#ultraHighSecurityPassword {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  margin: 0 10px;
+}

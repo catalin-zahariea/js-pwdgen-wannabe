@@ -8,24 +8,42 @@
 
     <!-- Link CSS Style -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
     <header>
-      <h1>Ultra high security password generator</h1>
-      <div class="header-payoff">
-        Generating long, high-quality random passwords is not simple. So here is
-        some totally random raw material, generated just for YOU, to start with.
+      <div class="container">
+        <div class="header-teaser">
+          <h1>Ultra high security password generator</h1>
+          <div class="header-payoff">
+            Generating long, high-quality random passwords is not simple. So
+            here is some totally random raw material, generated just for YOU, to
+            start with.
+          </div>
+        </div>
       </div>
     </header>
     <!-- End Header -->
 
     <!-- Main -->
     <main>
-      Your random ultra high security password is:
-      <span id="ultraHighSecurityPassword"></span>
+      <div class="container">
+        <div class="pw-generator">
+          Your random ultra high security password is:
+          <span id="ultraHighSecurityPassword"></span>
+        </div>
+      </div>
     </main>
     <!-- End Main -->
+
+    <!-- Link Javascript -->
     <script type="text/Javascript" src="js/script.js"></script>
   </body>
 </html>
