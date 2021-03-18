@@ -4,7 +4,7 @@ var colorUser = prompt("Inserisca il suo colore preferito");
 var securityProtocol;
 
 securityProtocol = "21";
-console.log(securityProtocol);
+// console.log(securityProtocol);
 
 document.getElementById("ultraHighSecurityPassword").innerHTML =
   nameUser + surnameUser + colorUser + securityProtocol;
